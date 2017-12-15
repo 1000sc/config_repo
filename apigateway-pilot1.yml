@@ -18,7 +18,7 @@ spring:
 zuul:
   prefix: /api
   routes:
-    pilot1:
+    pilot-service1:
       path: /pilot1/**
       erviceId: pilot-service1
       
