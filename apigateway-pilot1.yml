@@ -16,15 +16,15 @@ spring:
 ---
     
 zuul:
+  prefix: /api
   routes:
-    search-apigateway:
-      serviceId: pilot-service1
-    search-apigateway:
-      path: /api/** 
+    pilot1:
+      path: /pilot1/**
+      erviceId: pilot-service1
       
 ---
      
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka/  
+      defaultZone: http://10.250.228.140:8761/eureka/  

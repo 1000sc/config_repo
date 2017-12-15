@@ -11,11 +11,11 @@ spring:
 
 spring:
   profiles: local  
-  app:
-    message: App refreshable message from development profile - Update 78901234567
+app:
+  message: App refreshable message from development profile - Update 78901234567
 
 ---
 spring:
   profiles: dev
-  app:      
-    message: App refreshable message from development profile==> DEV 
+app:      
+  message: App refreshable message from development profile==> DEV 
