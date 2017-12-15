@@ -1,0 +1,30 @@
+#################################
+#### apigateway-pilot1 ##########
+#################################
+
+server:
+  port: 8200
+
+info:
+  component: Zuul Proxy  
+---
+
+spring:
+  application:
+    name: apigateway-pilot1
+    
+---
+    
+zuul:
+  routes:
+    search-apigateway:
+      serviceId: pilot-service1
+    search-apigateway:
+      path: /api/** 
+      
+---
+     
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/  
