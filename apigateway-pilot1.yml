@@ -2,9 +2,6 @@
 #### apigateway-pilot1 ##########
 #################################
 
-server:
-  port: 8200
-
 info:
   component: Zuul Proxy  
 ---
@@ -19,7 +16,7 @@ zuul:
   routes:
     pilot1:
       path: /pilot1/**
-      serviceId: pilot-service1
+      serviceId: pilot-service2
       
 ---
      
