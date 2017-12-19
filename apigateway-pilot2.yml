@@ -12,12 +12,12 @@ spring:
     
 ---
     
-zuul:
-  routes:
-    search-apigateway:
-      serviceId: pilot-service2
-    search-apigateway:
-      path: /api/** 
+#zuul:
+#  ignoredServices: '*'
+#  routes:
+#    pilot1:
+#      path: /pilot1/**
+#      serviceId: pilot-service2
       
 ---
      
