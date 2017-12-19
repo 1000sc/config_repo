@@ -12,11 +12,12 @@ spring:
     
 ---
     
-zuul:
-  routes:
-    pilot1:
-      path: /pilot1/**
-      serviceId: pilot-service2
+#zuul:
+#  ignoredServices: '*'
+#  routes:
+#    pilot1:
+#      path: /pilot1/**
+#      serviceId: pilot-service2
       
 ---
      
