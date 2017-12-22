@@ -12,14 +12,11 @@ spring:
           #defaultZkPort: 2181
   thymeleaf.cache: false
 logging.level.org.springframework.security: DEBUG
-
+app:
+  message: App refreshable message from development profile - Update 78901234567
 ---
 
 
-spring:
-  profiles: dev  
-app:
-  message: App refreshable message from development profile - Update 78901234567
   
   
 
