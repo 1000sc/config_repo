@@ -14,4 +14,4 @@ app:
 spring:
   profiles: dev
 app:      
-  message: App refreshable message from development profile==> DEV 
+  message: App refreshable message from development profile==> DEV 2222
