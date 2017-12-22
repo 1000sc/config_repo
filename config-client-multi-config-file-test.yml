@@ -12,5 +12,5 @@ spring:
   thymeleaf.cache: false
 logging.level.org.springframework.security: DEBUG
 # custom properties
-config-client2-welcome: hello, welcome to my test world
+config-client2-welcome: hello, welcome to my test world2222
 
