@@ -15,5 +15,11 @@ logging.level.org.springframework.security: DEBUG
 
 ---
 
-# custom properties
-config-client2-welcome: hello, welcome to my dev11 world11111111
+
+spring:
+  profiles: dev  
+app:
+  message: App refreshable message from development profile - Update 78901234567
+  
+  
+
