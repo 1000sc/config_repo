@@ -1,0 +1,21 @@
+server:
+  port: 8091
+
+---
+
+spring:
+  profiles:
+    active: local
+    
+---
+
+spring:
+  profiles: local  
+app:
+  message: App refreshable message from development profile - Update 78901234567888
+
+---
+spring:
+  profiles: dev
+app:      
+  message: App refreshable message from development profile==> DEV 
