@@ -1,5 +1,10 @@
 spring:
   profiles: dev
+---
+spring:
+  profiles:
+    active: dev
+---
 spring:
 #Apache Kafka Binder for bus-kafka
   cloud:
