@@ -4,6 +4,8 @@ spring:
 spring:
   profiles:
     active: dev
+app:
+  message: App refreshable message from development profile - Update 78901234567  
 ---
 spring:
 #Apache Kafka Binder for bus-kafka
@@ -16,9 +18,7 @@ spring:
           zkNodes: 10.250.228.140:2181
           #defaultZkPort: 2181
   thymeleaf.cache: false
-logging.level.org.springframework.security: DEBUG
-app:
-  message: App refreshable message from development profile - Update 78901234567
+
 ---
 
 
