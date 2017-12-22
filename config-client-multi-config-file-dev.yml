@@ -12,5 +12,8 @@ spring:
           #defaultZkPort: 2181
   thymeleaf.cache: false
 logging.level.org.springframework.security: DEBUG
+
+---
+
 # custom properties
 config-client2-welcome: hello, welcome to my dev11 world11111111
